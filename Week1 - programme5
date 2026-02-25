@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather Website</title>
+</head>
+<body style="margin:0; font-family:Arial;">
+<table width="100%" height="100%" border="1">
+<tr>
+<td width="25%" valign="top" style="background-color:#e6f7ff; text-align:center;">
+    <h3>Weather Map</h3>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/India_location_map.svg"
+         width="100%"
+         usemap="#weathermap">
+    <map name="weathermap">
+        <area shape="circle" coords="150,220,25" 
+              href="https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg" 
+              target="contentframe">
+        <area shape="circle" coords="130,260,25" 
+              href="https://images.pexels.com/photos/459451/pexels-photo-459451.jpeg" 
+              target="contentframe">
+        <area shape="circle" coords="170,170,25" 
+              href="https://images.pexels.com/photos/531756/pexels-photo-531756.jpeg" 
+              target="contentframe">
+    </map>
+    <br><br>
+    <a href="https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg" target="contentframe">Sunny</a><br><br>
+    <a href="https://images.pexels.com/photos/459451/pexels-photo-459451.jpeg" target="contentframe">Rainy</a><br><br>
+    <a href="https://images.pexels.com/photos/531756/pexels-photo-531756.jpeg" target="contentframe">Cloudy</a>
+</td>
+<td width="75%" align="center" valign="middle">
+    <iframe name="contentframe" width="100%" height="600" style="border:2px solid black;"></iframe>
+</td>
+</tr>
+</table>
+</body>
+</html>
