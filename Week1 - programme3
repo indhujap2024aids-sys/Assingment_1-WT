@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather Website</title>
+</head>
+<body style="text-align:center; font-family:Arial; background-color:#e6f2ff;">
+    <h1>🌦 Weather Information Website</h1>
+    <h3>Click below to view today's weather image</h3>
+    <a href="https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg"
+       target="weatherframe">
+       Show Weather Image
+    </a>
+    <br><br>
+    <iframe name="weatherframe"
+            width="800"
+            height="500"
+            style="border:3px solid black;">
+    </iframe>
+</body> 
+</html>
