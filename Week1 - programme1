@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather  Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: white;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: cyan;
+        }
+        h2 {
+            color: orange;
+        }
+        ul, ol {
+            background-color: #1c1c1c;
+            padding: 15px;
+            border-radius: 10px;
+            width: 350px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 90%;
+            margin-top: 20px;
+            background-color: #1c1c1c;
+            color: white;
+        }
+        th {
+            background-color: #0077b6;
+            color: white;
+            padding: 10px;
+        }
+        td {
+            padding: 8px;
+            text-align: center;
+        }
+        table, th, td {
+            border: 1px solid white;
+        }
+        tr:nth-child(even) {
+            background-color: #2c2c2c;
+        }
+    </style>
+</head>
+<body>
+    <h1>Weather Report Dashboard</h1>
+    <h2>Current Weather Details</h2>
+    <ul>
+        <li><b>City:</b> Hyderabad</li>
+        <li><b>Temperature:</b> 30°C</li>
+        <li><b>Humidity:</b> 60%</li>
+        <li><b>Wind Speed:</b> 15 km/h</li>
+        <li><b>Condition:</b> Partly Cloudy</li>
+    </ul>
+    <h2>Daily Weather Updates</h2>
+    <ol>
+        <li>Morning: Sunny</li>
+        <li>Afternoon: Hot</li>
+        <li>Evening: Cloudy</li>
+        <li>Night: Light Showers</li>
+    </ol>
+    <h2>Weekly Weather Forecast</h2>
+    <table border="1" cellpadding="8" cellspacing="0">
+        <tr>
+            <th>Day</th>
+            <th>Temperature</th>
+            <th>Humidity</th>
+            <th>Condition</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>30°C</td>
+            <td>60%</td>
+            <td>Sunny</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>28°C</td>
+            <td>65%</td>
+            <td>Cloudy</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>27°C</td>
+            <td>70%</td>
+            <td>Rain</td>
+        </tr>
+        <tr>
+            <td>Thursday</td>
+            <td>29°C</td>
+            <td>55%</td>
+            <td>Sunny</td>
+        </tr>
+        <tr>
+            <td>Friday</td>
+            <td>26°C</td>
+            <td>75%</td>
+            <td>Thunderstorm</td>
+        </tr>
+    </table>
+</body>
+</html>
